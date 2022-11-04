@@ -3,3 +3,5 @@ I have made a header, describing th line of work the user is, and styled it, add
 Pictures taken from google.
 Footer taken from Love running.
 HTML an CSS validator check came out good, code is valid.
+works on firefox, and Microsoft edge.
+Can't make it fit moblie or tablet screens.

@@ -139,9 +139,10 @@ form {
     font-size: large;
 }
 
-@media screen and (max-width: 800px;) {
-    .random li {
-        vertical-align: auto;
+@media screen and (max-width: 1200px;) {
+    .text {
+        text-size-adjust: 20%;
+      }
     }
 }
 
