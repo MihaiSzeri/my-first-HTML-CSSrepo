@@ -109,6 +109,9 @@ header p {
     font-size: large;
 
 }
+
+
+
 footer {
     height: 150px;
 }
@@ -139,12 +142,12 @@ form {
     font-size: large;
 }
 
-@media screen and (max-width: 1200px;) {
-    .text {
-        text-size-adjust: 20%;
-      }
-    }
-}
+
+
+
+
+    
+
 
     
 
