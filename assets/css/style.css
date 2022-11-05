@@ -6,14 +6,22 @@
     border: none;
 }
 
+a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
 #logo {
     float: left;
     font-size: 200%;
     margin-left: 25px;
-    
-}
-
-#logo {
     font-family: 'Montserrat', sans-serif;
     color: goldenrod;
 }
@@ -42,19 +50,24 @@ h2 {clear: both;
 header {
     
     background: url( ../images/drilling.webp) no-repeat center center; 
-    height: 300px;
+    height: 200px;
     background-color: chocolate;
-   
-
+    padding-top:20px;
 }
 
 header > p{
 	float:right;
 	margin:25px 20px 20px 0;
 }
+#motto{
+    font-size:20px;
+    margin-left:25px;
+    font-style:italic;
+}
 
 h2 {
-	font-size: 50px;
+	font-size: 36px;
+    margin-top:20px;
 	padding-bottom:30px;
 	font-weight:700;
 	color:white;
@@ -84,9 +97,6 @@ header p {
 	text-align:center;
 }
 .random li {
-	float:left;
-	width: 30%;
-	margin-right:2%;
 	list-style:none;
 }
 #nextcontent {
@@ -142,6 +152,39 @@ form {
     font-size: large;
 }
 
+/*Laptop*/
+@media all and (max-width:1400px){
+
+}
+
+/*Tableta*/
+
+@media all and (max-width:1024px){
+
+}
+
+/*Mobil*/
+@media all and (max-width:768px){
+    header{
+        background-image:none;
+    }
+    .random li{
+        margin-bottom:20px;
+    }
+   
+}
+
+
+
+@media all and (min-width:1024px){
+    .random li{
+        width:30%;    
+    }
+    .random{
+        display:flex;
+        justify-content: space-between;
+    }
+}
 
 
 
